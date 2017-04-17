@@ -1,4 +1,0 @@
-smartthings-devices
-===================
-
-Device Files
