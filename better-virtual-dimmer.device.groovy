@@ -26,6 +26,9 @@ Use License: Non-Profit Open Software License version 3.0 (NPOSL-3.0)
  *  Change 4:	2014-10-22 (twackford)
  *				Fixed on/off override so it will work with other apps/devices
  *
+ *  Change 5:	2017-04-17 (jcharr1)
+ *				Added sensor and actuator capabilities to support ActionTiles
+ *
  ******************************************************************************
                 
   Other Info:	Special thanks to Danny Kleinman at ST for helping me get the
@@ -41,6 +44,8 @@ metadata {
         capability "Switch Level"
 		capability "Refresh"
 		capability "Polling"
+        capability "Sensor"
+		capability "Actuator"
 
 		attribute "stepsize", "string"
 
